@@ -59,6 +59,6 @@ If I drill through to a certain actor, I can see a graph visual via the force di
 
 ![alt picture](/img/powerbi3.jpg)
 
-If I click on a certain movie, the graph shows me the sub-nodes for that movie. 
+If I click on a certain movie, the graph shows me the Production Countries (sub-nodes) for that movie. 
 
 ![alt picture](/img/powerbi4.jpg)
