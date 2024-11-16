@@ -10,5 +10,7 @@ To execute the notebooks, download the [Movies.zip](./files/Movies.zip) file and
 
 Here is a summary of the Notebooks
 
-1.  01 - Reference Data - Creates the reference NODE tables of Countries, Gender, Genre, Language, Language Role and Department and populates them with data. 
-2.  02 - Keyword - Creates the Keyword NODE table and populates the table.
+*  <B>01-Reference Data</B> - Creates the reference NODE tables of Countries, Gender, Genre, Language, Language Role and Department and populates them with data. 
+*  <B>02-Keyword</B> - Creates the Keyword NODE table and populates the table.
+*  <B>03-Person</B> - Creates the Person NODE table and populates the table>.
+*  <B>04-ProductionCompany</B> - Creates the Production Company NODE table and populates the table.
