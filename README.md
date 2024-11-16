@@ -5,13 +5,13 @@ This repo provides 13 SQL Notebooks that can be executed in Azure Data Studio to
 
 I created this repo because when I was looking to evaluate Graph SQL for a customer, I could not find a good sample/demo database.  Thus, I created these Notebooks using a Neo4J sample set and retrofitted the data structure to Azure Graph SQL.
 
-A special thanks to [Arvind Shyamsundar](https://www.linkedin.com/in/arvindsh/) for this feedback and guidance.
+A special thanks to [Arvind Shyamsundar](https://www.linkedin.com/in/arvindsh/) for his feedback and guidance.
 
 ## Notebooks
 
 To execute the notebooks, download the [Movies.zip](./files/Movies.zip) file and install [Azure Data Studio](https://learn.microsoft.com/en-us/azure-data-studio/what-is-azure-data-studio).
 
-Here is a summary of the Notebooks
+Here is a summary of the Notebooks within the zip file.
 
 *  01-Reference Data - Creates the reference NODE tables of Countries, Gender, Genre, Language, Language Role and Department and populates them with data. 
 *  02-Keyword - Creates the Keyword NODE table and populates the table.
