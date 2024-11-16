@@ -50,11 +50,11 @@ ORDER BY
     p.person_name ASC
 ```
 
-The report shows a visual of top 25 actors by movie count per country.<BR>&nbsp;<BR>
+The report shows a visual of top 25 actors by movie count per country.
 
 ![alt picture](/img/powerbi1.jpg)
 
-If I drill through to a certain actor, I can see a graph visual via the force directed graph add in.<BR>&nbsp;<BR>
+If I drill through to a certain actor, I can see a graph visual via the force directed graph add in.
 
 ![alt picture](/img/powerbi2.jpg)
 
