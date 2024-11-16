@@ -23,3 +23,42 @@ Here is a summary of the Notebooks
 *  11-MovieLanguages - Creates the Movie_Languages EDGE table and populates the table via a lookup table and view.  It also creates the EDGE constraint of Movies to Languages.
 *  12-ProductionCountry - Creates the Production_Country EDGE table and populates the table via a lookup table and view.  It also creates the EDGE constraint of Production to Country.
 *  13-Database Queries - Contains various queries to sample the data.
+
+## Power BI
+I have also included a [Movies.pbix](/files/Movies.pbix) sample report that uses the [Force-Directed Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) add in for Power BI, I was able to do some interesting visuals, see below for reference.
+
+Query Used for Power BI
+```sql
+SELECT 
+    p.person_name AS actor
+    , m.title as movie
+    , mc.gender as gender
+    , c.country_name as country
+FROM 
+    person p, 
+    movie_cast mc, 
+    movie m, 
+    production_country pc, 
+    country c
+WHERE 
+    MATCH (p<-(mc)-m-(pc)->c)
+
+ORDER BY 
+    p.person_name ASC
+```
+
+The report shows a visual of top 25 actors by movie count per country.<BR>&nbsp;<BR>
+
+![alt picture](/img/powerbi1.jpg)
+
+If I drill through to a certain actor, I can see a graph visual via the force directed graph add in.<BR>&nbsp;<BR>
+
+![alt picture](/img/powerbi2.jpg)
+
+...
+
+![alt picture](/img/powerbi3.jpg)
+
+If I click on a certain movie, the graph shows me the sub-nodes for that movie. 
+
+![alt picture](/img/powerbi4.jpg)
